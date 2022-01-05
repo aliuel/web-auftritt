@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply cursor-default
+    }
+
+    #banner h2 {
+        @apply text-[6vw] uppercase
+        sm:text-[2.5vh]
+    }
+
+    #socialmedia img {
+        @apply w-[7vw] py-2 cursor-pointer /* width is same as font size in #banner */
+        sm:w-[2.8vh]
+    }
+
+    #header h1 {
+        @apply text-[12vh]
+    }
+
+    h3 {
+        @apply text-[3.5vh] font-black italic
+    }
+
+    .section {
+        @apply px-8 mt-[3vh] pb-[7vh] border-b-[2px] border-black
+    }
+
+    .section h1 {
+        @apply text-[4vh] leading-[4vh] mb-[1vh] font-semibold
+    }
+
+    .section p {
+        @apply text-[2.5vh] leading-[3.2vh] mt-[2vh]
+    }
+
+    .talents {
+        @apply pt-[3vh] flex flex-wrap
+    }
+
+    .talents div {
+        @apply uppercase mr-[1vh] mb-[1vh] font-bold tracking-wider text-[1.8vh] px-[1vh] pt-[.1vh] text-white rounded-md
+    }
+
+    #person img {
+        @apply w-[3vh] lg:ml-8 
+    }
+
+    .contact p {
+        @apply ml-[2vh] text-[2.7vh] mt-[-.3vh] lg:ml-0
+    }
+
+    @media (min-width: 1024px) {
+        
+        #wrapper {
+            @apply px-24
+        }
+
+        #header {
+            @apply border-none mb-[2vh] mt-[3vh]
+        }
+
+        #introduction, #person {
+            @apply border-b-0 p-0 pb-[2vh] my-[5vh]
+        }
+
+        #frontend, #backend {
+            @apply border-b-0 max-w-[500px]
+        }
+
+        .section h1 {
+            @apply border-b-[2px] border-black pb-[2vh]
+        }
+
+        .section h1, h3, p, .talents {
+            @apply px-8
+        }
+
+        .section {
+            @apply max-w-[800px]
+        }
+    }
+
+    @media (max-height: 700px) {
+        h3 {
+            @apply text-[4vh] font-black italic
+        }
+
+        .section h1 {
+            @apply text-[4.5vh] leading-[4.5vh]
+        }
+    
+        .section p {
+            @apply text-[2.8vh] leading-[3.6vh]
+        }
+    }
+}
