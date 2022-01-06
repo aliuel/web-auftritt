@@ -9,12 +9,12 @@
 
     #banner h2 {
         @apply text-[6.8vw] uppercase
-        sm:text-[3vh]
+        xs:text-[3vh]
     }
 
     #socialmedia img {
         @apply w-[7vw] cursor-pointer /* width is same as font size in #banner */
-        sm:w-[3vh]
+        xs:w-[3vh]
     }
 
     #header h1 {

@@ -1,6 +1,6 @@
 <template>
 
-  <div id="wrapper" class="mr-[11vw] sm:mr-[5vh]">
+  <div id="wrapper" class="mr-[11vw] xs:mr-[5vh]">
     <!-- margin same as banner width -->
 
     <div id="header"
@@ -117,7 +117,7 @@
 
   <div id="banner" class="fixed py-2 right-0 top-0 border-l-[2px] border-black h-screen bg-transparent w-[11vw] 
     flex flex-col items-center justify-evenly
-    sm:w-[5vh]">
+    xs:w-[5vh]">
     <h2 class=" font-black">Bewerbung</h2>
     <div id="socialmedia">
       <a href="https://www.linkedin.com/in/ali-%C3%BClgen-16b766219/">
