@@ -127,7 +127,7 @@
         <img src="./assets/github-square.svg" alt="">
       </a>
     </div>
-    <h2 class=" tracking-wider">03/01/21 - Stettlen</h2>
+    <h2 class=" tracking-wider">06/01/21 - Stettlen</h2>
   </div>
 </template>
 
