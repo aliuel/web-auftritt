@@ -121,10 +121,7 @@
     <h2 class=" font-black">Bewerbung</h2>
     <div id="socialmedia">
       <a href="https://www.linkedin.com/in/ali-%C3%BClgen-16b766219/">
-        <img src="./assets/linkedin.svg" alt="">
-      </a>
-      <a ref="button">
-        <img @click="sendMessage" src="./assets/twitter-square.svg" alt="">
+        <img class="mb-6" src="./assets/linkedin.svg" alt="">
       </a>
       <a href="https://github.com/aliuel">
         <img src="./assets/github-square.svg" alt="">
@@ -132,46 +129,9 @@
     </div>
     <h2 class=" tracking-wider">03/01/21 - Stettlen</h2>
   </div>
-
-  <div ref="message" class="fixed opacity-0 top-1 right-0 left-0 flex justify-center z-30 pt-[2vh] px-3 h-min lg:left-auto lg:right-[5vh]
-  transition-all duration-500">
-    <div class="bg-rose-600 w-max p-4 rounded-xl shadow-2xl text-white text-center">
-      Link ist im moment nicht aktiv
-    </div>
-  </div>
 </template>
 
 <script>
-  import {
-    ref
-  } from "vue"
-
-  export default {
-    setup() {
-      const message = ref(null)
-      const button = ref(null)
-
-      const sendMessage = () => {
-
-        const whatItDo = () => {
-          message.value.classList.toggle('opacity-100')
-          button.value.classList.toggle('pointer-events-none')
-        }
-
-        whatItDo()
-
-        setTimeout(() => {
-          whatItDo()
-        }, 3000);
-      }
-
-      return {
-        message,
-        button,
-        sendMessage
-      }
-    }
-  }
 </script>
 
 <style>
