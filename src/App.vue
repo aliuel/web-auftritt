@@ -74,7 +74,7 @@
           <h1>Backend</h1>
           <p class="pl-0"> Erfahrung in der Entwicklung von REST APIs mit Node und Express. Konzipieren und Umsetzen von komplexen
             SQL Datenbankschemas.</p>
-          <div class="talents justify-end">
+          <div class="talents justify-end mr-[-1vh]">
             <div class="bg-[#83CD29]">
               <span>node</span>
             </div>
